@@ -14,7 +14,7 @@
 		<?php foreach( $items as $portfolio ) :?>
 			<div class="row">
 				<?php foreach( $portfolio as $item ) :?>
-				<div class="col-md-4 wow <?php echo $animation ?>">
+				<div class="col-md-4 text-center wow <?php echo $animation ?>">
 					<a class="op-lightbox" href="<?php echo $item['image']?>">
 						<figure class="overlay overlay-hover">
 							<img class="overlay-spin" src="<?php echo $item['thumb']?>" alt="<?php echo $item['title']?>" />
