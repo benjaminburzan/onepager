@@ -1,0 +1,38 @@
+.content-8{ padding-top: 80px; padding-bottom: 80px;}
+/*
+	Blurbs
+*/
+.content-8 .blurb { margin: 3.5rem 0 0; }
+.content-8 .blurb h3 { font-weight: bold; font-size: 1.125em; }
+/*
+	Responsive
+*/
+@media (max-width: 768px){
+	.content-8{
+		padding-top: 20px; padding-bottom: 20px;	
+		text-align: center;
+	}
+}
+
+.section-table {
+	padding-top: 30px;
+	padding-left: 20%;
+	padding-right: 20%;
+}
+
+/* remove lines below table header and row */ 
+
+.table-borderless > tbody > tr > td,
+.table-borderless > tbody > tr > th,
+.table-borderless > tfoot > tr > td,
+.table-borderless > tfoot > tr > th,
+.table-borderless > thead > tr > td,
+.table-borderless > thead > tr > th {
+    border: none;
+}
+
+.table {
+	border: 0px !important;
+	table-layout:auto;
+
+}
