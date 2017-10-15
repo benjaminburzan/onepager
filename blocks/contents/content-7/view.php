@@ -5,7 +5,7 @@
 	// WOW JS Animation delay for repeater
 	$animation_delay = 0.2;
 ?>
-<section id="<?php echo $id?>" class="op-section contents content-6 full-screen">
+<section id="<?php echo $id?>" class="op-section contents content-7 full-screen">
 	<div class="container">
 		<article class="mr-big ml-big">
 			<?php if($contents['title']):?>
