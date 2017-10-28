@@ -7,7 +7,7 @@ return array(
   'contents' => array(
     array(
       'name'=>'title',
-      'value'=>'See our cool features22'
+      'value'=>'See our cool features'
     ),
 
     array(
