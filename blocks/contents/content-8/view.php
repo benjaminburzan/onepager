@@ -37,6 +37,12 @@
 			</table>	
 			</div>
 
+			<?php if($contents['caption']):?>
+				<!-- Section Caption -->
+				<strong><p class="text-center wow <?php echo $animation_title?>">
+					<?php echo $contents['caption']?>
+				</p></strong>
+			<?php endif; ?>
 			
 		</article>
 	</div>

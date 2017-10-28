@@ -9,6 +9,10 @@ return array(
       'name'=>'title',
       'value'=>'See our cool features'
     ),
+    array(
+      'name'=>'caption',
+      'value'=>'See this cool caption'
+    ),
 
     array(
       'name'=>'items',
